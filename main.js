@@ -29,13 +29,17 @@ console.log(endWith2);
 const concat = str.concat(" => Js");// Output: DEVELOPER => Js
 console.log(concat);
 
-const slice_str = str.slice("0,2"); // problem! 
-console.log(slice_str);
 
-const string = "Follow,Reza";   // problem! 
+/*The code you provided has a syntax error. The slice method expects two arguments: the starting index and the ending index (optional). The correct usage would be str.slice(0, 2) to slice the string from index 0 (inclusive) to index 2 (exclusive). */
 
-const split = string.split("-")
+const newStr = "Hello, world!";
+const slice_newStr = str.slice(0, 2);
+console.log(slice_newStr);
+
+const string = "Follow,Reza";
+const split = string.split(",");
 console.log(split);
+
 
 
 
